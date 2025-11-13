@@ -1,0 +1,468 @@
+/* Hero Section - Professional Design */
+.hero-section {
+  background: #1c1c2c;
+  min-height: 100vh;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Abstract%20romantic%20background%20with%20soft%20gradient%20from%20deep%20purple%20to%20dark%20blue%2C%20elegant%20and%20mysterious%2C%20subtle%20light%20effects%2C%20professional%20and%20sophisticated%20design&image_size=landscape_16_9');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 30% 20%, rgba(255, 0, 153, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+/* Notification Bar */
+.notification-bar {
+  background: rgba(28, 28, 44, 0.95);
+  border-bottom: 1px solid rgba(255, 0, 153, 0.3);
+  padding: 12px 0;
+  position: relative;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+}
+
+.notification-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.notification-success {
+  color: #00FF88;
+  font-weight: 600;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Hero Content */
+.hero-content {
+  padding: 60px 0 80px;
+  position: relative;
+  z-index: 3;
+}
+
+/* Hero Header */
+.hero-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.hero-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(28px, 5vw, 48px);
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ffffff;
+  margin: 0 0 16px 0;
+}
+
+.text-magenta {
+  color: #FF0099;
+  font-weight: 800;
+}
+
+/* Message Card */
+.message-card {
+  background: rgba(28, 28, 44, 0.8);
+  border: 1px solid rgba(255, 0, 153, 0.2);
+  border-radius: 24px;
+  padding: 40px;
+  margin: 0 auto 48px;
+  max-width: 800px;
+  backdrop-filter: blur(10px);
+  position: relative;
+  box-shadow: 0 8px 32px rgba(28, 28, 44, 0.5);
+}
+
+.message-card::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  right: -1px;
+  bottom: -1px;
+  background: linear-gradient(135deg, rgba(255, 0, 153, 0.3), rgba(255, 255, 255, 0.1));
+  border-radius: 24px;
+  z-index: -1;
+}
+
+.message-highlight {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.highlight-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #ffffff;
+  margin: 0;
+}
+
+.message-content {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+}
+
+.main-text {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0 0 32px 0;
+  opacity: 0.9;
+}
+
+/* Fear Section */
+.fear-section {
+  margin-bottom: 40px;
+}
+
+.fear-intro {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 0 24px 0;
+  opacity: 0.8;
+  font-style: italic;
+}
+
+.fear-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.fear-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 20px;
+  background: rgba(45, 45, 66, 0.6);
+  border-radius: 12px;
+  border-left: 3px solid #FF0099;
+}
+
+.fear-icon {
+  color: #FF0099;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.fear-item span {
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+/* Solution Section */
+.solution-section {
+  text-align: center;
+}
+
+.solution-intro {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 24px 0;
+  opacity: 0.8;
+  font-style: italic;
+}
+
+.solution-highlight {
+  background: rgba(62, 62, 88, 0.7);
+  border-radius: 16px;
+  padding: 32px;
+  margin: 24px 0;
+  border: 1px solid rgba(255, 0, 153, 0.15);
+}
+
+.solution-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0 0 24px 0;
+}
+
+.solution-points {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.point {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.point-marker {
+  color: #FF0099;
+  font-size: 18px;
+}
+
+.power-message {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 24px 0 0 0;
+  font-weight: 500;
+}
+
+/* Product Intro */
+.product-intro {
+  margin-bottom: 48px;
+}
+
+.product-card {
+  background: rgba(28, 28, 44, 0.9);
+  border: 1px solid rgba(255, 0, 153, 0.4);
+  border-radius: 24px;
+  padding: 40px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 12px 40px rgba(28, 28, 44, 0.6);
+}
+
+.product-icon {
+  margin-bottom: 24px;
+}
+
+.product-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 16px 0;
+  line-height: 1.2;
+}
+
+.product-subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ffffff;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* Hero CTA */
+.hero-cta {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cta-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #ffffff;
+  margin: 0;
+  opacity: 0.95;
+}
+.hero-image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.hero-image {
+  max-width: 420px;
+  height: auto;
+  border-radius: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.delay-2 {
+  animation-delay: 0.2s;
+}
+
+.delay-3 {
+  animation-delay: 0.4s;
+}
+
+.delay-4 {
+  animation-delay: 0.6s;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+  
+  .hero-content {
+    padding: 40px 0 60px;
+  }
+  
+  .hero-image {
+    max-width: 320px;
+  }
+  
+  .hero-header {
+    margin-bottom: 32px;
+  }
+  
+  .message-card {
+    padding: 24px;
+    margin: 0 0 32px 0;
+  }
+  
+  .highlight-text {
+    font-size: 20px;
+  }
+  
+  .main-text {
+    font-size: 16px;
+  }
+  
+  .fear-item {
+    padding: 12px 16px;
+  }
+  
+  .fear-item span {
+    font-size: 14px;
+  }
+  
+  .solution-highlight {
+    padding: 24px;
+  }
+  
+  .solution-text {
+    font-size: 18px;
+  }
+  
+  .point {
+    font-size: 14px;
+  }
+  
+  .power-message {
+    font-size: 16px;
+  }
+  
+  .product-card {
+    padding: 24px;
+  }
+  
+  .product-title {
+    font-size: 24px;
+  }
+  
+  .product-subtitle {
+    font-size: 16px;
+  }
+  
+  .cta-text {
+    font-size: 18px;
+  }
+  
+  .fear-list {
+    gap: 12px;
+  }
+  
+  .solution-points {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .message-card {
+    padding: 20px;
+  }
+  
+  .highlight-text {
+    font-size: 18px;
+  }
+  
+  .hero-image {
+    max-width: 220px;
+  }
+  
+  .main-text {
+    font-size: 15px;
+  }
+  
+  .solution-highlight {
+    padding: 20px;
+  }
+  
+  .solution-text {
+    font-size: 16px;
+  }
+  
+  .power-message {
+    font-size: 15px;
+  }
+  
+  .product-card {
+    padding: 20px;
+  }
+  
+  .product-title {
+    font-size: 22px;
+  }
+  
+  .product-subtitle {
+    font-size: 15px;
+  }
+  
+  .cta-text {
+    font-size: 16px;
+  }
+}
