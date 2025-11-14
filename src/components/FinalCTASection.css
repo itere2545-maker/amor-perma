@@ -13,7 +13,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 50% 50%, rgba(227, 79, 159, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle at 50% 50%, rgba(255, 0, 153, 0.1) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -59,8 +59,8 @@
 }
 
 .option-right {
-  border-color: rgba(227, 79, 159, 0.22);
-  background: linear-gradient(135deg, rgba(227, 79, 159, 0.08), rgba(255, 255, 255, 0.04));
+  border-color: rgba(255, 0, 153, 0.3);
+  background: linear-gradient(135deg, rgba(255, 0, 153, 0.1), rgba(255, 255, 255, 0.05));
 }
 
 .option-title {
@@ -73,7 +73,7 @@
 }
 
 .option-title.highlight {
-  color: #E34F9F;
+  color: #FF0099;
 }
 
 .option-content {
@@ -89,10 +89,10 @@
 }
 
 .option-result {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   padding: 16px;
-  border-left: 3px solid #E34F9F;
+  border-left: 3px solid #FF0099;
 }
 
 .result-text {
@@ -103,7 +103,7 @@
 }
 
 .result-text.highlight {
-  color: #E34F9F;
+  color: #FF0099;
 }
 
 .option-divider {
@@ -117,7 +117,7 @@
 .divider-line {
   width: 2px;
   height: 60px;
-  background: linear-gradient(to bottom, rgba(227, 79, 159, 0.35), transparent);
+  background: linear-gradient(to bottom, rgba(255, 0, 153, 0.5), transparent);
 }
 
 .divider-text {
@@ -417,6 +417,20 @@
   font-weight: 700;
   color: #FF0099;
   margin: 4px 0;
+}
+#hotmart-sales-funnel {
+  margin: 16px auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.custom-element__iframe {
+  display: block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  border: 0;
+}
+@media (max-width: 768px) {
+  #hotmart-sales-funnel { padding: 0 10px; }
 }
 /* Guarantee */
 .guarantee-section {
