@@ -155,22 +155,38 @@ const FinalCTASection: React.FC = () => {
 
               <div className="main-access">
                 <div className="access-combo">+</div>
-                <h4 className="access-title">⭐ ACCESO PRINCIPAL CHAT SOFÍA 24/7<br />(30 días incluidos)</h4>
-                <p className="access-price">
-                  <span className="access-price-old">$14,90</span>
-                  <span className="access-price-sep">→</span>
-                  <span className="access-price-new">$7,90<span className="access-price-note"> al mes</span></span>
-                </p>
-                <p className="access-sub">Tu guía emocional inteligente disponible a cualquier hora:</p>
-                <ul className="scenarios-list">
-                  <li className="scenario-item"><span className="scenario-marker">💬</span><span className="scenario-text">Cuando él escribe repentinamente</span></li>
-                  <li className="scenario-item"><span className="scenario-marker">⏳</span><span className="scenario-text">Cuando tarda en responder</span></li>
-                  <li className="scenario-item"><span className="scenario-marker">🫶</span><span className="scenario-text">Cuando te sientes insegura</span></li>
-                  <li className="scenario-item"><span className="scenario-marker">📱</span><span className="scenario-text">Cuando no sabes si responder rápido o esperar</span></li>
-                  <li className="scenario-item"><span className="scenario-marker">⚠️</span><span className="scenario-text">Cuando tienes miedo de arruinarlo todo</span></li>
-                  <li className="scenario-item"><span className="scenario-marker">❓</span><span className="scenario-text">Cuando necesitas saber “qué hago ahora”</span></li>
-                </ul>
-                <p className="access-description">Es como tener una mentora emocional profesional en tu bolsillo, respondiéndote en segundos.</p>
+                <div className="access-card">
+                  <div className="access-header">
+                    <div className="access-badges">
+                      <span className="badge badge-vitalicio">Acceso vitalicio</span>
+                      <span className="badge badge-unico">Pago único</span>
+                      <span className="badge badge-247">24/7</span>
+                    </div>
+                    <h4 className="access-title">CHAT SOFÍA - ACESSO VITALICIO</h4>
+                    <div className="access-divider"></div>
+                  </div>
+                  <div className="access-pricing">
+                    <p className="access-price">
+                      <span className="access-price-old">$29,90</span>
+                      <span className="access-price-sep">→</span>
+                      <span className="access-price-new">$14,90<span className="access-price-note"> pago único</span></span>
+                    </p>
+                    <p className="access-cta-note">Sin cobros mensuales ocultos — acceso vitalicio real.</p>
+                  </div>
+                  <p className="access-sub">Tu guía emocional inteligente disponible a cualquier hora, para toda la vida.</p>
+                  <ul className="scenarios-list">
+                    <li className="scenario-item"><span className="scenario-marker">💬</span><span className="scenario-text">Cuando él escribe repentinamente</span></li>
+                    <li className="scenario-item"><span className="scenario-marker">⏳</span><span className="scenario-text">Cuando tarda en responder</span></li>
+                    <li className="scenario-item"><span className="scenario-marker">🫶</span><span className="scenario-text">Cuando te sientes insegura</span></li>
+                    <li className="scenario-item"><span className="scenario-marker">📱</span><span className="scenario-text">Cuando no sabes si responder rápido o esperar</span></li>
+                    <li className="scenario-item"><span className="scenario-marker">⚠️</span><span className="scenario-text">Cuando tienes miedo de arruinarlo todo</span></li>
+                    <li className="scenario-item"><span className="scenario-marker">❓</span><span className="scenario-text">Cuando necesitas saber “qué hago ahora”</span></li>
+                    <li className="scenario-item"><span className="scenario-marker">♾️</span><span className="scenario-text">Acceso vitalicio: para toda la vida</span></li>
+                    <li className="scenario-item"><span className="scenario-marker">🕒</span><span className="scenario-text">Disponible en cualquier momento de tu vida</span></li>
+                    <li className="scenario-item"><span className="scenario-marker">✅</span><span className="scenario-text">Sin cobros mensuales ocultos: es acceso vitalicio real</span></li>
+                  </ul>
+                  <p className="access-description">Es como tener una mentora emocional profesional en tu bolsillo, respondiéndote en segundos — siempre.</p>
+                </div>
               </div>
 
               <div className="renewal-section">
