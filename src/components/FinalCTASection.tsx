@@ -169,7 +169,7 @@ const FinalCTASection: React.FC = () => {
                     <p className="access-price">
                       <span className="access-price-old">$29,90</span>
                       <span className="access-price-sep">→</span>
-                      <span className="access-price-new">$14,90<span className="access-price-note"> pago único</span></span>
+                      <span className="access-price-new">$8,90<span className="access-price-note"> pago único</span></span>
                     </p>
                     <p className="access-cta-note">Sin cobros mensuales ocultos — acceso vitalicio real.</p>
                   </div>
